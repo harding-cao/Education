@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录页面</title>
+  
+  <link href="css/style1.css" rel="stylesheet" type="text/css" />
+   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+   <link rel="stylesheet" href="font-awesome-master/css/font-awesome.min.css">
+   <link href="css/style.css" rel="stylesheet" type="text/css" />
+   <link type="text/css" rel="stylesheet" href="css/validationEngine.jquery.css">
+
+  </head>
+
+<body>
+<div class="top">
+  <div class="logo"><img src="img/logo.png" /></div>
+  <div class="lo">
+	   <span  class="logowenzi"><img src="img/logo1.png" /></span>
+	   <span class="zuce"> <a href="zhuce.html">注册新账号<i class="fa fa-chevron-circle-right"></i></a></span>
+	  <div  class="clear"></div>
+  </div>
+ 
+ 
+</div>
+<div class="center">
+<form method="get" id="form_id" action="">
+	 <div class="content">
+		<p>
+			<label class="tit"><i class="fa fa-user fa-fw" style="font-size:20px;padding-right:10px; color:rgba(86,87,88,0.5)"></i>账号</label>
+			<input id="txtUser" type="text"  placeholder="请输入手机/邮箱"  name="username"  class="txt   validate[required,custom[mobile],custom[email]]" />
+		</p> 
+		<p class="none">
+			<label class="tit  "><i class="fa fa-key fa-fw" style="font-size:20px; padding-right:10px;color:rgba(86,87,88,0.5)"></i>密码</label>
+			<input id="txtPwd"  class="txt  validate[required,custom[onlyLetterNumber],minSize[6],maxSize[12]]"  type="password" placeholder="请输入密码" maxlength="20" name="txtPwd">
+		</p>
+    </div>
+	<div class="content1">
+		<input id="RememberMeCheckBox" type="checkbox" name="RememberMeCheckBox"/>
+	    <label for="RememberMeCheckBox">下次自动登录</label>
+	    <span class="fr">
+			<a class="colorBlue02" target="javascript:" >忘记密码？</a>
+		</span>
+		<div>
+		<input id="btnLogin" class="p121-login-btn" type="submit" value="立即登录" name="btnLogin"/>
+        </div>
+</div>
+</form>
+	<div class="content3" style="">
+		其他方式登录
+		<a id="KoolearnLink" target="_blank" title="用facebook账号登录" style="cursor:pointer;" href="javascript:"><i class=" fa fa-facebook"></i>        </a>
+		<a id="QQLink" target="_blank" title="用QQ号登录" style="cursor:pointer;" href="javascript:"><i class="fa fa-qq"></i></a>
+		<a id="SinaLink" target="_blank" title="用新浪微博登录" style="cursor:pointer;" href="javascript:"><i class="fa fa-weibo"></i></a>
+	</div>
+
+
+</div>
+<div class="footer">Copyright Neworiental Corporation, All Rights Reserved
+                     <span>@曹佳平 版权所有</span>
+</div>
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script> 
+<script type="text/javascript" src="js/jquery.validationEngine-zh_CN.js"></script> 
+<script type="text/javascript" src="js/jquery.validationEngine.js"></script>
+<script>
+$(function(){
+	$('#form_id').validationEngine();
+	
+})
+ </script>
+</script>
+</body>
+</html>

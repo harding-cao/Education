@@ -1,0 +1,99 @@
+/* CSS Document */
+body{background:url(../img/login-bg.jpg) no-repeat; }
+.top{ width:900px; margin:0 auto;  }
+.top .logo{ padding:20px 0 0 20px; }
+.top .lo{ width:900px; }
+.top .lo .logowenzi{ display:block; padding-left:25px; float:left; }
+.top  .lo .zuce{ display:block;  float:right; margin:20px 120px 0 0; color:#0066FF;}
+.top  .lo .zuce a{ color: #0066FF; font-size:14px;}
+.center{ 
+    width:400px; 
+	margin:0 auto;
+	height:380px;
+    background: rgba(255, 255, 255, 0.6) none repeat scroll 0 0;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgba(154, 169, 177, 0.5);
+    padding: 60px 140px;
+    margin:0 auto;
+}
+.center .content{
+    margin: 0 auto;
+	}
+.center .content p.first {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #d4d4d4;
+    border-radius: 7px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    position: relative;
+	padding-left:50px;
+}
+.center .content .tit {
+   
+    vertical-align: middle;
+    width: 20%;
+}
+.center .content .tit-w12 {
+    width: 12%;
+}
+.center .content.txt-w {
+    width: 45% !important;
+}
+.center .content  input.txt {
+    background-color: transparent;
+    border: 0 none;
+    color: #666;
+    height: 20px;
+    padding-left: 2%;
+    vertical-align: middle;
+    width: 40%;
+}
+.center .content .p121-login-block-yzm {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #d4d4d4;
+    border-radius: 7px;
+    margin:20px auto;
+}
+.center .content .p121-login-block-yzm p {
+    border-bottom: 1px solid #d4d4d4;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+	padding-left:50px;
+}
+.center .content .p121-login-block-yzm p.none {
+    border-bottom: medium none;
+}
+.center .content .p121-login-block-yzm-btn {
+    background: #f1fffc none repeat scroll 0 0;
+    border: 1px solid #bee6df;
+    border-radius: 3px;
+    color: #29afa2;
+    font-size: 14px;
+    padding: 5px 10px;
+    text-align: center;
+}
+.center .content .p121-login-agree {
+    color: #9a9a9a;
+    font-size: 14px;
+    margin: 10px 0 10px auto;
+}
+.center .content .p121-login-btn {
+    background: #0099FF;
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    outline: medium none;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+.center .content .p121-login-btn:hover {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #1bc8aa, #0ad1ae) repeat scroll 0 0;
+    text-decoration: none;
+	}
+.center  .footer{ width:400px; margin:80px auto; margin-bottom:20px; color:#666666; font-size:12px; text-align:center; vertical-align:middle;}
+.center .footer span{ display:block; width:300px; margin:5px auto;}
